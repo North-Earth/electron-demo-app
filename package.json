@@ -1,0 +1,27 @@
+{
+  "name": "electron-demo-app",
+  "version": "0.1.0",
+  "author": "Aleksey Kukushkin",
+  "description": "My Electron App",
+  "main": "./src/main/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/North-Earth/electron-demo-app.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/North-Earth/electron-demo-app/issues"
+  },
+  "homepage": "https://github.com/North-Earth/electron-demo-app#readme",
+  "devDependencies": {
+    "electron": "^12.0.5"
+  }
+}
